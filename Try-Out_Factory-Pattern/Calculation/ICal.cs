@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Try_Out_Factory_Pattern
+namespace Try_Out_Factory_Pattern.Calculation
 {
-    internal class Program
+    public interface ICal
     {
-        private static void Main(string[] args)
-        {
 
-        }
+        bool TryGetResult(out CalculationResult result);
+
     }
 }
