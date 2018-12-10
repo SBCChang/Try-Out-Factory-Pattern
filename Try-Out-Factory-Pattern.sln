@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try-Out_Factory-Pattern", "Try-Out_Factory-Pattern\Try-Out_Factory-Pattern.csproj", "{93137957-F6C0-4893-95A6-2CD0B72FAB9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try-Out-Factory-Pattern", "Try-Out_Factory-Pattern\Try-Out-Factory-Pattern.csproj", "{93137957-F6C0-4893-95A6-2CD0B72FAB9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

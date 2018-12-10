@@ -1,17 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Try_Out_Factory_Pattern.Calculation
+﻿namespace Try_Out_Factory_Pattern.Calculation
 {
     public class DiffCal : ICal
     {
 
-        public bool TryGetResult(out CalculationResult result)
+        public DiffCal()
         {
-            throw new NotImplementedException();
+
+        }
+
+        public bool TryGetResult(out CalculationResult data)
+        {
+            var result = false;
+            data = default(CalculationResult);
+
+            return result;
         }
 
     }

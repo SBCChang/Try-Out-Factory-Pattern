@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Try_Out_Factory_Pattern
 {
@@ -11,6 +7,9 @@ namespace Try_Out_Factory_Pattern
         private static void Main(string[] args)
         {
 
+            DataContext.Start();
+
+            Console.ReadKey();
         }
     }
 }

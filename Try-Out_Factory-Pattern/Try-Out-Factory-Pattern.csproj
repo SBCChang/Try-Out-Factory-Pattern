@@ -45,6 +45,8 @@
     <Compile Include="Calculation\CalculationResult.cs" />
     <Compile Include="Calculation\DiffCal.cs" />
     <Compile Include="Calculation\ICal.cs" />
+    <Compile Include="CalFactory.cs" />
+    <Compile Include="DataContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

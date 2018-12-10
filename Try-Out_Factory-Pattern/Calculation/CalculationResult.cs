@@ -7,6 +7,8 @@ namespace Try_Out_Factory_Pattern.Calculation
 
         public Guid Id { get; set; }
 
+        public DateTime Timestamp { get; set; }
+
         public double? Value { get; set; }
 
     }
